@@ -3,89 +3,151 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width" initial-scale="1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-    <link rel="stylesheet" href="/src/scss/styles.css" />
-    <title>FAQ Section questions</title>
+    <meta name="viewport" content="width=device-width" initial-scale=1.0">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Document</title>
   </head>
 
   <body>
     <main class="box">
-      <img class="illustration__package" src="assets/package.svg" />
-      <img class="illustration__mobile" src="assets/illustration-mobile.svg" />
-      <div class="box__faq faq">
-        <h1 class="faq__title">FAQ</h1>
-        
-        <div class="faq__item">
-          <div class="faq__question">
-            <h2>How many team members can I invite?</h2>
-            <img src="./assets/arrow.svg" class="faq__arrow" />
-          </div>
-          <div class="faq__answer">
-            <h3>
-              No more than 2GB. All files in your account must fit your allotted
-              storage space.
-            </h3>
-          </div>
+      <div class="accordion">
+        <div class="accordion__img">
+          <img
+            src="assets/illustration-woman-online-mobile.svg"
+            alt=""
+            aria-hidden="true"
+            class="accordion__img--mobile"
+          />
+          <img
+            src="assets/illustration-woman-online-desktop.svg"
+            alt=""
+            aria-hidden="true"
+            class="accordion__img--desktop"
+          />
+          <img
+            src="assets/illustration-box-desktop.svg"
+            alt=""
+            aria-hidden="true"
+            class="accordion__img--desktop-box"
+          />
+          <img
+            src="assets/bg-pattern-desktop.svg"
+            alt=""
+            aria-hidden="true"
+            class="accordion__img--desktop-shadow"
+          />
         </div>
 
-        <hr />
+        <div class="box__faq faq">
+          <h1 class="faq__title">FAQ</h1>
 
-        <div class="faq__item">
-          <div class="faq__question">
-            <h2>What is the maximum file upload size?</h2>
-            <img src="./assets/arrow.svg" class="faq__arrow" />
+          <div class="faq__item">
+            <div class="faq__question">
+              <h2>How many team members can I invite?</h2>
+              <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M1 .799l4 4 4-4"
+                  stroke="#F47B56"
+                  stroke-width="2"
+                  fill="none"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <p class="faq__answer">
+              You can invite up to 2 additional users on the Free plan. There
+              is no limit on team members for the Premium plan.
+            </p>
           </div>
-          <div class="faq__answer">
-            <h3>
-              No more than 2GB. All files in your account must fit your allotted
-              storage space.
-            </h3>
-          </div>
-        </div>
-        <hr />
 
-        <div class="faq__item">
-          <div class="faq__question">
-            <h2>How do I reset my password?</h2>
-            <img src="./assets/arrow.svg" class="faq__arrow" />
-          </div>
-          <div class="faq__answer">
-            <h3>
-              No more than 2GB. All files in your account must fit your allotted
-              storage space.
-            </h3>
-          </div>
-        </div>
-        <hr />
+ 
 
-        <div class="faq__item">
-          <div class="faq__question">
-            <h2>Can I cancel my subscription?</h2>
-            <img src="./assets/arrow.svg" class="faq__arrow" />
+          <div class="faq__item">
+            <div class="faq__question">
+              <h2>What is the maximum file upload size?</h2>
+              <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M1 .799l4 4 4-4"
+                  stroke="#F47B56"
+                  stroke-width="2"
+                  fill="none"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <p class="faq__answer">
+              No more than 2GB. All files in your account must fit your
+              allotted storage space.
+            </p>
           </div>
-          <div class="faq__answer">
-            <h3>
-              No more than 2GB. All files in your account must fit your allotted
-              storage space.
-            </h3>
-          </div>
-        </div>
-        <hr />
+ 
 
-        <div class="faq__item">
-          <div class="faq__question">
-            <h2>Do you provide additional support?</h2>
-            <img src="./assets/arrow.svg" class="faq__arrow" />
+          <div class="faq__item">
+            <div class="faq__question">
+              <h2>How do I reset my password?</h2>
+              <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M1 .799l4 4 4-4"
+                  stroke="#F47B56"
+                  stroke-width="2"
+                  fill="none"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <p class="faq__answer">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
           </div>
-          <div class="faq__answer">
-            <h3>
-              No more than 2GB. All files in your account must fit your allotted
-              storage space.
-            </h3>
+ 
+
+          <div class="faq__item">
+            <div class="faq__question">
+              <h2>Can I cancel my subscription?</h2>
+              <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M1 .799l4 4 4-4"
+                  stroke="#F47B56"
+                  stroke-width="2"
+                  fill="none"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <p class="faq__answer">
+              Yes! Send us a message and we’ll process your request no
+              questions asked.
+            </p>
           </div>
+ 
+
+          <div class="faq__item">
+            <div class="faq__question">
+              <h2>Do you provide additional support?</h2>
+              <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M1 .799l4 4 4-4"
+                  stroke="#F47B56"
+                  stroke-width="2"
+                  fill="none"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <p class="faq__answer">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+          </div>
+ 
         </div>
-        <hr />
       </div>
     </main>
     <script src="src/js/app.js"></script>
