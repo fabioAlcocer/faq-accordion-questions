@@ -49,6 +49,6 @@ In this project I put into practice my knowledge in vanilla JS and improved my C
 
 ## Author
 
-- LinkedIn - [Emi Acerbi](https://www.linkedin.com/in/fabio-alcocer/)
+- LinkedIn - [Fabio Alcocer](https://www.linkedin.com/in/fabio-alcocer/)
 
 🚀
